@@ -5,7 +5,9 @@ services:
     plan: free
     autoDeploy: true
     numInstances: 1
-    buildCommand: pip install -r requirements.txt
+    # Upgrade pip first so wheel discovery works on the enforced Python;
+    # --prefer-binary never falls back to meson source builds (g95 error).
+    buildCommand: pip install --upgrade pip && pip install --prefer-binary -r requirements.txt
     # Render injects $PORT — the app must bind to it fast (landing at /,
     # console at /app). Single worker fits the 512MB free tier; keep-alive
     # keeps the uptime monitor's connections warm.
@@ -13,7 +15,7 @@ services:
     healthCheckPath: /health
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.9
+        value: 3.13.4
       - key: MPLBACKEND
         value: Agg
       - key: PYTHONUNBUFFERED

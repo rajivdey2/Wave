@@ -1,12 +1,15 @@
-# Pinned for reproducible Render builds (unpinned >= ranges floated to
-# numpy 2.x / sklearn 1.7, which are heavier and risk binary incompat with
-# the shipped models/ml_classifier.pkl). All wheels available for py3.11.
-numpy==1.26.4
-scipy==1.12.0
-matplotlib==3.8.4
-scikit-learn==1.3.2
-joblib==1.3.2
-fastapi==0.109.2
-uvicorn==0.27.1
-python-multipart==0.0.9
-pytest==8.0.0
+# Wheel-safe ranges: exact == pins (e.g. scipy==1.12.0 / numpy==1.26.4)
+# have NO wheels for Python 3.13/3.14 (Render's current default), so pip
+# falls back to a meson source build needing g95/gfortran -> build fails.
+# These ranges guarantee a prebuilt wheel on py3.10–3.13 while staying on
+# the tested major lines. All verified locally (numpy 2.2.6, scipy 1.15.3,
+# mpl 3.10.x, sklearn 1.7.x — pytest 13/13 green).
+numpy>=2.0,<3
+scipy>=1.14,<1.16
+matplotlib>=3.9,<3.11
+scikit-learn>=1.5,<1.8
+joblib>=1.3.2
+fastapi>=0.109,<1
+uvicorn>=0.27
+python-multipart>=0.0.9
+pytest>=7
