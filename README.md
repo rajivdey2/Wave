@@ -1,5 +1,7 @@
 # SIH26147 — Automated .IQ/.WAV Signal Analysis & Parameter Extraction
 
+**Live demo:** https://wave-kqmh.onrender.com (landing page at `/`, console at `/app`)
+
 DSP + classical classification pipeline for NTRO-style radio captures.
 Ingests raw IQ / WAV, detects every signal present, extracts parameters
 (center freq, bandwidth, SNR, symbol rate), classifies modulation with
