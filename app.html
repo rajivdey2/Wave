@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WaveSight Console — Analyze IQ/WAV</title>
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="assets/demos.js"></script>
+</head>
+<body>
+<nav class="nav" id="topnav"><div class="wrap nav-in">
+  <a class="logo" href="index.html"><span class="logo-mark">📡</span> WaveSight</a>
+</div></nav>
+
+<div class="app-shell" id="console">
+  <span style="display:none"><span class="status-dot" id="beacon"></span> <span id="bstat">checking backend…</span></span>
+
+  <div class="app-grid">
+    <!-- LEFT: input -->
+    <div class="panel glass">
+      <h3>Select input</h3>
+      <div class="tabs">
+        <div class="tab on" id="tabDemo">📚 Demo library</div>
+        <div class="tab" id="tabUp">📤 Upload</div>
+      </div>
+      <div id="paneDemo">
+        <input class="search" id="q" placeholder="Filter demos… (e.g. qpsk, multi, noise)">
+        <div class="dlist" id="dlist"></div>
+      </div>
+      <div id="paneUp" style="display:none">
+        <div class="drop" id="drop">Drop <b>.iq / .cfile / .wav</b> here<br>or click to browse<input type="file" id="file" accept=".iq,.cfile,.wav,.bin" hidden></div>
+        <div id="fname" style="font-size:12.5px;color:var(--mut);margin-top:8px"></div>
+      </div>
+      <div style="margin-top:12px">
+        <label style="font-size:12px;color:var(--mut)">Sample rate (Hz) — required for raw .iq</label>
+        <input class="search" id="sr" type="number" value="100000" style="margin-top:6px;margin-bottom:0">
+      </div>
+      <button class="btn btn-primary" id="go" style="width:100%;justify-content:center;margin-top:12px;padding:13px">⚡ Analyze signal</button>
+      <div style="font-size:12px;color:var(--mut);margin-top:10px;line-height:1.6">Backend: <code id="bend">same-origin → :8000</code><br>Offline? Embedded demo reports run with zero backend.</div>
+    </div>
+
+    <!-- RIGHT: processing + results -->
+    <div>
+      <div class="panel glass">
+        <h3>In-app processing — live wave</h3>
+        <div class="stage" id="stage">
+          <div class="st" data-s="0">📥 Ingest</div><div class="st" data-s="1">🔍 Detect</div>
+          <div class="st" data-s="2">📐 Extract</div><div class="st" data-s="3">🧠 Classify</div>
+          <div class="st" data-s="4">📄 Report</div>
+        </div>
+        <canvas id="procWave" width="900" height="170"></canvas>
+        <div class="pbar"><i id="pfill"></i></div>
+        <div class="log" id="log">› ready. select a demo or upload a file, then press Analyze.<br></div>
+      </div>
+
+      <div id="results" style="margin-top:16px;display:none">
+        <div class="panel glass">
+          <div class="res-top">
+            <div><h3 style="margin:0">Results</h3><div class="res-file" id="resFile"></div></div>
+            <div class="dl-row" style="margin-top:0">
+              <button class="btn" id="dlJson">⬇ JSON</button>
+              <button class="btn" id="dlSigmf">⬇ SigMF</button>
+              <button class="btn" id="dlPng">⬇ PNG</button>
+              <button class="btn btn-ghost" id="copyJson">⧉ Copy</button>
+            </div>
+          </div>
+          <div class="res-grid" id="sumCards"></div>
+          <div class="res-legend">How to read this — <b>DETECTED</b> measured directly · <b>ESTIMATED</b> computed · <b>INFERRED</b> model vote · <b>UNKNOWN</b> too faint, refused to guess</div>
+          <div id="sigList"></div>
+        </div>
+        <div class="panel" style="margin-top:16px">
+          <h3>Spectrum &amp; constellation (rendered from report)</h3>
+          <div style="display:grid;grid-template-columns:1.2fr .8fr;gap:12px" id="vizGrid">
+            <div><canvas id="specCanvas" width="640" height="300"></canvas>
+              <div style="font-size:12px;color:var(--mut);margin-top:6px">Annotated spectrum — boxes = detections, color = confidence state</div></div>
+            <div><canvas id="constCanvas" width="360" height="300"></canvas>
+              <div style="font-size:12px;color:var(--mut);margin-top:6px">Constellation sketch from modulation label</div></div>
+          </div>
+          <h3 style="margin-top:16px">Raw JSON</h3>
+          <pre class="json" id="rawJson"></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer><div class="wrap foot"><span>WaveSight console · evidence + confidence on every field</span>
+<span style="margin-left:auto"><a href="index.html" style="text-decoration:underline">← Back to landing</a></span></div></footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

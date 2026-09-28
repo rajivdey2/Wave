@@ -1,0 +1,75 @@
+{
+  "accuracy": 0.4,
+  "rows": [
+    {
+      "true": "PSK",
+      "snr": 10,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "AM",
+      "snr": 10,
+      "pred": "CW",
+      "method": "both",
+      "ok": false
+    },
+    {
+      "true": "SSB",
+      "snr": 10,
+      "pred": "UNKNOWN",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 10,
+      "pred": "QAM",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FSK",
+      "snr": 10,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": true
+    },
+    {
+      "true": "FSK",
+      "snr": 10,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": true
+    },
+    {
+      "true": "QAM",
+      "snr": 10,
+      "pred": "QAM",
+      "method": "classical",
+      "ok": true
+    },
+    {
+      "true": "QAM",
+      "snr": 10,
+      "pred": "QAM",
+      "method": "classical",
+      "ok": true
+    },
+    {
+      "true": "PSK",
+      "snr": 10,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FM",
+      "snr": 10,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    }
+  ]
+}

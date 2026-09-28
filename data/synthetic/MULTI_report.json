@@ -1,0 +1,141 @@
+{
+  "source_file": "data\\synthetic\\MULTI_10dB_cf32.iq",
+  "format": "iq_cf32",
+  "sample_rate_hz": 100000.0,
+  "duration_s": 1.0,
+  "noise_floor_db": -10.508790016174316,
+  "dynamic_range_db": 27.275153160095215,
+  "detections": [
+    {
+      "id": "sig-00",
+      "t_start_s": 0.0,
+      "t_end_s": 0.9984,
+      "f_low_hz": -122.07031249999999,
+      "f_high_hz": 109.86328124999999,
+      "center_freq_hz": {
+        "value": 0.0455444626987658,
+        "state": "detected",
+        "confidence": 1.0,
+        "evidence": "main-lobe centroid over 3 bins, peak -11.7dB"
+      },
+      "bandwidth_hz": {
+        "value": 231.93359374999997,
+        "state": "estimated",
+        "confidence": 0.85,
+        "evidence": "-3dB width 232Hz, -20dB width 98Hz from Welch PSD"
+      },
+      "snr_db": {
+        "value": 0.1,
+        "state": "estimated",
+        "confidence": 0.502508978825782,
+        "evidence": "in-band vs out-of-band power ratio = 0.1dB"
+      },
+      "symbol_rate_hz": {
+        "value": 3999.0,
+        "state": "estimated",
+        "confidence": 0.9,
+        "evidence": "cepstral peak at 1/3999Hz (ratio 423) \u2014 rect-pulse symbol rate"
+      },
+      "modulation": {
+        "value": "PSK",
+        "state": "inferred",
+        "confidence": 0.7,
+        "evidence": "squaring-loop 0.97, 4th-power 0.88 \u2014 PSK"
+      },
+      "modulation_evidence_method": "classical",
+      "demod_available": true,
+      "fec_identification": {
+        "value": "BLOCK?",
+        "state": "inferred",
+        "confidence": 0.55,
+        "evidence": "autocorr repetition peak 0.96 at short lag \u2014 possible block code/interleaver"
+      }
+    },
+    {
+      "id": "sig-01",
+      "t_start_s": 0.0,
+      "t_end_s": 0.9984,
+      "f_low_hz": 16601.562499999996,
+      "f_high_hz": 23400.878906249996,
+      "center_freq_hz": {
+        "value": 19955.28844608905,
+        "state": "detected",
+        "confidence": 1.0,
+        "evidence": "main-lobe centroid over 49 bins, peak -17.4dB"
+      },
+      "bandwidth_hz": {
+        "value": 5798.33984375,
+        "state": "estimated",
+        "confidence": 0.85,
+        "evidence": "-3dB width 5798Hz, -20dB width 6799Hz from Welch PSD"
+      },
+      "snr_db": {
+        "value": 6.2,
+        "state": "estimated",
+        "confidence": 0.6555528229948155,
+        "evidence": "in-band vs out-of-band power ratio = 6.2dB"
+      },
+      "symbol_rate_hz": {
+        "value": null,
+        "state": "unknown",
+        "confidence": null,
+        "evidence": "symbol rate not applicable to FM"
+      },
+      "modulation": {
+        "value": "FM",
+        "state": "inferred",
+        "confidence": 0.75,
+        "evidence": "constant envelope, discriminator is a pure tone \u2014 FM"
+      },
+      "modulation_evidence_method": "classical",
+      "demod_available": false,
+      "fec_identification": null
+    },
+    {
+      "id": "sig-02",
+      "t_start_s": 0.0,
+      "t_end_s": 0.9984,
+      "f_low_hz": -23278.808593749996,
+      "f_high_hz": -16723.632812499996,
+      "center_freq_hz": {
+        "value": -20001.282581852913,
+        "state": "detected",
+        "confidence": 1.0,
+        "evidence": "main-lobe centroid over 164 bins, peak -22.0dB"
+      },
+      "bandwidth_hz": {
+        "value": 1135.25390625,
+        "state": "estimated",
+        "confidence": 0.85,
+        "evidence": "-3dB width 1135Hz, -20dB width 6555Hz from Welch PSD"
+      },
+      "snr_db": {
+        "value": 6.0,
+        "state": "estimated",
+        "confidence": 0.6503631234004869,
+        "evidence": "in-band vs out-of-band power ratio = 6.0dB"
+      },
+      "symbol_rate_hz": {
+        "value": 3999.0,
+        "state": "estimated",
+        "confidence": 0.9,
+        "evidence": "cepstral peak at 1/3999Hz (ratio 1827) \u2014 rect-pulse symbol rate"
+      },
+      "modulation": {
+        "value": "PSK",
+        "state": "inferred",
+        "confidence": 0.7,
+        "evidence": "squaring-loop 0.93, 4th-power 0.76 \u2014 PSK"
+      },
+      "modulation_evidence_method": "classical",
+      "demod_available": true,
+      "fec_identification": {
+        "value": "UNCODED/SCR?",
+        "state": "inferred",
+        "confidence": 0.5,
+        "evidence": "balanced bits (0.49), no repetition \u2014 uncoded or scrambled"
+      }
+    }
+  ],
+  "pipeline_version": "0.1.0-day1"
+}

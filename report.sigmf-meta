@@ -1,0 +1,25 @@
+{
+  "global": {
+    "core:datatype": "cf32_le",
+    "core:sample_rate": 100000.0,
+    "core:version": "1.0.0",
+    "ntro_sih:pipeline_version": "0.1.0-day1"
+  },
+  "captures": [
+    {
+      "core:sample_start": 0,
+      "core:frequency": 0
+    }
+  ],
+  "annotations": [
+    {
+      "core:sample_start": 0,
+      "core:sample_count": 99840,
+      "core:freq_lower_edge": 4760.742187499999,
+      "core:freq_upper_edge": 15246.582031249998,
+      "ntro_sih:modulation": "PSK",
+      "ntro_sih:confidence_state": "inferred",
+      "ntro_sih:evidence": "squaring-loop 0.85, 4th-power 0.70 \u2014 PSK + ML agrees (0.91)"
+    }
+  ]
+}

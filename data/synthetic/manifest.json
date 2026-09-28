@@ -1,0 +1,560 @@
+[
+  {
+    "file": "AM_-5dB_cf32.iq",
+    "modulation": "AM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 240.0,
+    "symbol_rate_hz": null,
+    "snr_db": -5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "AM_0dB_cf32.iq",
+    "modulation": "AM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 240.0,
+    "symbol_rate_hz": null,
+    "snr_db": 0.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "AM_5dB_cf32.iq",
+    "modulation": "AM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 240.0,
+    "symbol_rate_hz": null,
+    "snr_db": 5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "AM_10dB_cf32.iq",
+    "modulation": "AM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 240.0,
+    "symbol_rate_hz": null,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "AM_15dB_cf32.iq",
+    "modulation": "AM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 240.0,
+    "symbol_rate_hz": null,
+    "snr_db": 15.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "AM_20dB_cf32.iq",
+    "modulation": "AM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 240.0,
+    "symbol_rate_hz": null,
+    "snr_db": 20.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FM_-5dB_cf32.iq",
+    "modulation": "FM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 6200.0,
+    "symbol_rate_hz": null,
+    "snr_db": -5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FM_0dB_cf32.iq",
+    "modulation": "FM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 6200.0,
+    "symbol_rate_hz": null,
+    "snr_db": 0.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FM_5dB_cf32.iq",
+    "modulation": "FM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 6200.0,
+    "symbol_rate_hz": null,
+    "snr_db": 5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FM_10dB_cf32.iq",
+    "modulation": "FM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 6200.0,
+    "symbol_rate_hz": null,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FM_15dB_cf32.iq",
+    "modulation": "FM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 6200.0,
+    "symbol_rate_hz": null,
+    "snr_db": 15.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FM_20dB_cf32.iq",
+    "modulation": "FM",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 6200.0,
+    "symbol_rate_hz": null,
+    "snr_db": 20.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "SSB_-5dB_cf32.iq",
+    "modulation": "SSB",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 200.0,
+    "symbol_rate_hz": null,
+    "snr_db": -5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "SSB_0dB_cf32.iq",
+    "modulation": "SSB",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 200.0,
+    "symbol_rate_hz": null,
+    "snr_db": 0.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "SSB_5dB_cf32.iq",
+    "modulation": "SSB",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 200.0,
+    "symbol_rate_hz": null,
+    "snr_db": 5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "SSB_10dB_cf32.iq",
+    "modulation": "SSB",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 200.0,
+    "symbol_rate_hz": null,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "SSB_15dB_cf32.iq",
+    "modulation": "SSB",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 200.0,
+    "symbol_rate_hz": null,
+    "snr_db": 15.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "SSB_20dB_cf32.iq",
+    "modulation": "SSB",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 200.0,
+    "symbol_rate_hz": null,
+    "snr_db": 20.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CW_-5dB_cf32.iq",
+    "modulation": "CW",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 60.0,
+    "symbol_rate_hz": null,
+    "snr_db": -5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CW_0dB_cf32.iq",
+    "modulation": "CW",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 60.0,
+    "symbol_rate_hz": null,
+    "snr_db": 0.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CW_5dB_cf32.iq",
+    "modulation": "CW",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 60.0,
+    "symbol_rate_hz": null,
+    "snr_db": 5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CW_10dB_cf32.iq",
+    "modulation": "CW",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 60.0,
+    "symbol_rate_hz": null,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CW_15dB_cf32.iq",
+    "modulation": "CW",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 60.0,
+    "symbol_rate_hz": null,
+    "snr_db": 15.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CW_20dB_cf32.iq",
+    "modulation": "CW",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 60.0,
+    "symbol_rate_hz": null,
+    "snr_db": 20.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FSK2_-5dB_cf32.iq",
+    "modulation": "FSK2",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2600.0,
+    "symbol_rate_hz": 1000.0,
+    "snr_db": -5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FSK2_0dB_cf32.iq",
+    "modulation": "FSK2",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2600.0,
+    "symbol_rate_hz": 1000.0,
+    "snr_db": 0.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FSK2_5dB_cf32.iq",
+    "modulation": "FSK2",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2600.0,
+    "symbol_rate_hz": 1000.0,
+    "snr_db": 5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FSK2_10dB_cf32.iq",
+    "modulation": "FSK2",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2600.0,
+    "symbol_rate_hz": 1000.0,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FSK2_15dB_cf32.iq",
+    "modulation": "FSK2",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2600.0,
+    "symbol_rate_hz": 1000.0,
+    "snr_db": 15.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "FSK2_20dB_cf32.iq",
+    "modulation": "FSK2",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2600.0,
+    "symbol_rate_hz": 1000.0,
+    "snr_db": 20.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "BPSK_-5dB_cf32.iq",
+    "modulation": "BPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": -5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "BPSK_0dB_cf32.iq",
+    "modulation": "BPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 0.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "BPSK_5dB_cf32.iq",
+    "modulation": "BPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "BPSK_10dB_cf32.iq",
+    "modulation": "BPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "BPSK_15dB_cf32.iq",
+    "modulation": "BPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 15.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "BPSK_20dB_cf32.iq",
+    "modulation": "BPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 20.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QPSK_-5dB_cf32.iq",
+    "modulation": "QPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": -5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QPSK_0dB_cf32.iq",
+    "modulation": "QPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 0.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QPSK_5dB_cf32.iq",
+    "modulation": "QPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QPSK_10dB_cf32.iq",
+    "modulation": "QPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QPSK_15dB_cf32.iq",
+    "modulation": "QPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 15.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QPSK_20dB_cf32.iq",
+    "modulation": "QPSK",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 20.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QAM16_-5dB_cf32.iq",
+    "modulation": "QAM16",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": -5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QAM16_0dB_cf32.iq",
+    "modulation": "QAM16",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 0.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QAM16_5dB_cf32.iq",
+    "modulation": "QAM16",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QAM16_10dB_cf32.iq",
+    "modulation": "QAM16",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QAM16_15dB_cf32.iq",
+    "modulation": "QAM16",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 15.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "QAM16_20dB_cf32.iq",
+    "modulation": "QAM16",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 2400.0,
+    "symbol_rate_hz": 2000.0,
+    "snr_db": 20.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "OFDM_-5dB_cf32.iq",
+    "modulation": "OFDM",
+    "center_freq_hz": 0.0,
+    "bandwidth_hz": 78125.0,
+    "symbol_rate_hz": null,
+    "snr_db": -5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "OFDM_0dB_cf32.iq",
+    "modulation": "OFDM",
+    "center_freq_hz": 0.0,
+    "bandwidth_hz": 78125.0,
+    "symbol_rate_hz": null,
+    "snr_db": 0.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "OFDM_5dB_cf32.iq",
+    "modulation": "OFDM",
+    "center_freq_hz": 0.0,
+    "bandwidth_hz": 78125.0,
+    "symbol_rate_hz": null,
+    "snr_db": 5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "OFDM_10dB_cf32.iq",
+    "modulation": "OFDM",
+    "center_freq_hz": 0.0,
+    "bandwidth_hz": 78125.0,
+    "symbol_rate_hz": null,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "OFDM_15dB_cf32.iq",
+    "modulation": "OFDM",
+    "center_freq_hz": 0.0,
+    "bandwidth_hz": 78125.0,
+    "symbol_rate_hz": null,
+    "snr_db": 15.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "OFDM_20dB_cf32.iq",
+    "modulation": "OFDM",
+    "center_freq_hz": 0.0,
+    "bandwidth_hz": 78125.0,
+    "symbol_rate_hz": null,
+    "snr_db": 20.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CHIRP_-5dB_cf32.iq",
+    "modulation": "CHIRP",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 20000.0,
+    "symbol_rate_hz": null,
+    "snr_db": -5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CHIRP_0dB_cf32.iq",
+    "modulation": "CHIRP",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 20000.0,
+    "symbol_rate_hz": null,
+    "snr_db": 0.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CHIRP_5dB_cf32.iq",
+    "modulation": "CHIRP",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 20000.0,
+    "symbol_rate_hz": null,
+    "snr_db": 5.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CHIRP_10dB_cf32.iq",
+    "modulation": "CHIRP",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 20000.0,
+    "symbol_rate_hz": null,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CHIRP_15dB_cf32.iq",
+    "modulation": "CHIRP",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 20000.0,
+    "symbol_rate_hz": null,
+    "snr_db": 15.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "CHIRP_20dB_cf32.iq",
+    "modulation": "CHIRP",
+    "center_freq_hz": 10000.0,
+    "bandwidth_hz": 20000.0,
+    "symbol_rate_hz": null,
+    "snr_db": 20.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "MULTI_10dB_cf32.iq",
+    "modulation": "MULTI:BPSK+CW+FM",
+    "center_freq_hz": 0.0,
+    "bandwidth_hz": 100000.0,
+    "symbol_rate_hz": null,
+    "snr_db": 10.0,
+    "sample_rate_hz": 100000.0
+  },
+  {
+    "file": "NOISE_cf32.iq",
+    "modulation": "NOISE",
+    "center_freq_hz": 0.0,
+    "bandwidth_hz": 0.0,
+    "symbol_rate_hz": null,
+    "snr_db": -99.0,
+    "sample_rate_hz": 100000.0
+  }
+]

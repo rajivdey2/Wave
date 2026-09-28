@@ -1,0 +1,355 @@
+{
+  "accuracy": 0.1,
+  "rows": [
+    {
+      "true": "PSK",
+      "snr": 0,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 4,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 8,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 12,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 18,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "AM",
+      "snr": 0,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "AM",
+      "snr": 4,
+      "pred": "CW",
+      "method": "both",
+      "ok": false
+    },
+    {
+      "true": "AM",
+      "snr": 8,
+      "pred": "SSB",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "AM",
+      "snr": 12,
+      "pred": "SSB",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "AM",
+      "snr": 18,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "SSB",
+      "snr": 0,
+      "pred": "OFDM",
+      "method": "both",
+      "ok": false
+    },
+    {
+      "true": "SSB",
+      "snr": 4,
+      "pred": "UNKNOWN",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "SSB",
+      "snr": 8,
+      "pred": "UNKNOWN",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "SSB",
+      "snr": 12,
+      "pred": "UNKNOWN",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "SSB",
+      "snr": 18,
+      "pred": "UNKNOWN",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 0,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 4,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 8,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 12,
+      "pred": "QAM",
+      "method": "both",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 18,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FSK",
+      "snr": 0,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FSK",
+      "snr": 4,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FSK",
+      "snr": 8,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FSK",
+      "snr": 12,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FSK",
+      "snr": 18,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FSK",
+      "snr": 0,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FSK",
+      "snr": 4,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": true
+    },
+    {
+      "true": "FSK",
+      "snr": 8,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": true
+    },
+    {
+      "true": "FSK",
+      "snr": 12,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": true
+    },
+    {
+      "true": "FSK",
+      "snr": 18,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": true
+    },
+    {
+      "true": "QAM",
+      "snr": 0,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "QAM",
+      "snr": 4,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "QAM",
+      "snr": 8,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "QAM",
+      "snr": 12,
+      "pred": "QAM",
+      "method": "both",
+      "ok": true
+    },
+    {
+      "true": "QAM",
+      "snr": 18,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "QAM",
+      "snr": 0,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "QAM",
+      "snr": 4,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "QAM",
+      "snr": 8,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "QAM",
+      "snr": 12,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "QAM",
+      "snr": 18,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 0,
+      "pred": "FSK",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 4,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 8,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 12,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "PSK",
+      "snr": 18,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FM",
+      "snr": 0,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FM",
+      "snr": 4,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FM",
+      "snr": 8,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FM",
+      "snr": 12,
+      "pred": "CW",
+      "method": "classical",
+      "ok": false
+    },
+    {
+      "true": "FM",
+      "snr": 18,
+      "pred": "AM",
+      "method": "classical",
+      "ok": false
+    }
+  ]
+}

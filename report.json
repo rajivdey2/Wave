@@ -1,0 +1,56 @@
+{
+  "source_file": "data\\synthetic\\BPSK_10dB_cf32.iq",
+  "format": "iq_cf32",
+  "sample_rate_hz": 100000.0,
+  "duration_s": 1.0,
+  "noise_floor_db": -10.746431350708008,
+  "dynamic_range_db": 27.581083297729492,
+  "detections": [
+    {
+      "id": "sig-00",
+      "t_start_s": 0.0,
+      "t_end_s": 0.9984,
+      "f_low_hz": 4760.742187499999,
+      "f_high_hz": 15246.582031249998,
+      "center_freq_hz": {
+        "value": 9994.339838316624,
+        "state": "detected",
+        "confidence": 1.0,
+        "evidence": "main-lobe centroid over 181 bins, peak -19.8dB"
+      },
+      "bandwidth_hz": {
+        "value": 1745.60546875,
+        "state": "estimated",
+        "confidence": 0.85,
+        "evidence": "-3dB width 1746Hz, -20dB width 10486Hz from Welch PSD"
+      },
+      "snr_db": {
+        "value": 9.9,
+        "state": "estimated",
+        "confidence": 0.7465226593464594,
+        "evidence": "in-band vs out-of-band power ratio = 9.9dB"
+      },
+      "symbol_rate_hz": {
+        "value": 1999.5,
+        "state": "estimated",
+        "confidence": 0.9,
+        "evidence": "cepstral peak at 1/2000Hz (ratio 1117) \u2014 rect-pulse symbol rate"
+      },
+      "modulation": {
+        "value": "PSK",
+        "state": "inferred",
+        "confidence": 0.95,
+        "evidence": "squaring-loop 0.85, 4th-power 0.70 \u2014 PSK + ML agrees (0.91)"
+      },
+      "modulation_evidence_method": "both",
+      "demod_available": true,
+      "fec_identification": {
+        "value": "UNCODED/SCR?",
+        "state": "inferred",
+        "confidence": 0.5,
+        "evidence": "BPSK (2000 bits): balanced bits (0.50), no repetition \u2014 uncoded or scrambled"
+      }
+    }
+  ],
+  "pipeline_version": "0.1.0-day1"
+}
